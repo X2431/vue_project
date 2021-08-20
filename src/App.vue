@@ -14,7 +14,10 @@ import Footer from './components/Footer'
     components:{
       Header,
       Footer
-    }
+    },mounted() {
+      // console.log(this);
+      this.$store.dispatch('getCategoryList')
+    },
   }
 </script>
 

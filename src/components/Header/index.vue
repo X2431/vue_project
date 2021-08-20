@@ -30,7 +30,7 @@
             <!--头部第二行 搜索区域-->
             <div class="bottom">
                 <h1 class="logoArea">
-                    <router-link class="logo" to="/login" title="尚品汇">
+                    <router-link class="logo" to="/home" title="尚品汇">
                         <img src="./images/logo.png" alt="">
                     </router-link>
                     <!-- <a class="logo" title="尚品汇" href="###" target="_blank">
@@ -39,23 +39,49 @@
                 </h1>
                 <div class="searchArea">
                     <form action="###" class="searchForm">
-                        <input type="text" id="autocomplete" class="input-error input-xxlarge" />
+                        <input type="text" id="autocomplete" class="input-error input-xxlarge" v-model="keyword"/>
                         <button class="sui-btn btn-xlarge btn-danger" type="button" @click="toSearch">搜索</button>
                     </form>
                 </div>
             </div>
         </header>
       </div>
-</template>
+</template> 
 
 <script>
   export default {
       name:'Header',
+      data(){
+          return{
+              keyword:''
+          }
+      },
       methods:{
           toSearch(){
-              this.$router.push({
-                  path:'/search'
-              })
+            //   this.$router.push({
+            //     //   path:'/search'
+            //     name:'search',
+            //     params:{
+            //         keyword:this.keyword
+            //     },
+            //     query:{
+            //         keyword1:this.keyword.toUpperCase()
+            //     }
+            //   })
+
+                let location = {
+                    name:'search'
+                }
+
+                location.params = {
+                    keyword : this.keyword || undefined
+                }
+
+                if(this.$route.query){
+                    location.query = this.$route.query
+                }
+                console.log(location);
+                this.$router.push(location)
           }
       }
   }
