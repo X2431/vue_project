@@ -1,0 +1,139 @@
+{
+    "trademarkList": [
+        {
+            "tmId": 2,
+            "tmName": "苹果"
+        },
+        {
+            "tmId": 1,
+            "tmName": "小米"
+        },
+        {
+            "tmId": 3,
+            "tmName": "朋友的叔叔"
+        },
+        {
+            "tmId": 4,
+            "tmName": "霸王生发液"
+        }
+    ],
+    "total": 17,
+    "pageNo": 1,
+    "goodsList": [
+        {
+            "tmId": null,
+            "hotScore": 0,
+            "category1Name": null,
+            "category2Id": null,
+            "category1Id": null,
+            "title": "华为 HUAWEI P40 麒麟990 5G SoC芯片 5000万超感知徕卡三摄 30倍数字变焦 8GB+128GB亮黑色全网通5G手机",
+            "attrs": null,
+            "defaultImg": "/images/mobile01.png",
+            "tmName": null,
+            "createTime": null,
+            "category3Name": null,
+            "price": 4488.0,
+            "category2Name": null,
+            "category3Id": null,
+            "id": 1
+        },
+        {
+            "tmId": null,
+            "hotScore": 0,
+            "category1Name": null,
+            "category2Id": null,
+            "category1Id": null,
+            "title": "小米10 至尊纪念版 双模5G 骁龙865 120HZ高刷新率 120倍长焦镜头 120W快充 8GB+128GB 陶瓷黑 游戏手机",
+            "attrs": null,
+            "defaultImg": "/images/mobile02.png",
+            "tmName": null,
+            "createTime": null,
+            "category3Name": null,
+            "price": 5999.0,
+            "category2Name": null,
+            "category3Id": null,
+            "id": 2
+        },
+        {
+            "tmId": null,
+            "hotScore": 0,
+            "category1Name": null,
+            "category2Id": null,
+            "category1Id": null,
+            "title": "促销信息，下单即赠送三个月CIBN视频会员卡！【小米电视新品4A 58 火爆预约中】",
+            "attrs": null,
+            "defaultImg": "/images/mobile03.png",
+            "tmName": null,
+            "createTime": null,
+            "category3Name": null,
+            "price": 1999.0,
+            "category2Name": null,
+            "category3Id": null,
+            "id": 3
+        },
+        {
+            "tmId": null,
+            "hotScore": 0,
+            "category1Name": null,
+            "category2Id": null,
+            "category1Id": null,
+            "title": "这是图片5",
+            "attrs": null,
+            "defaultImg": "/images/mobile05.png",
+            "tmName": null,
+            "createTime": null,
+            "category3Name": null,
+            "price": 999.0,
+            "category2Name": null,
+            "category3Id": null,
+            "id": 4
+        },
+        {
+            "tmId": null,
+            "hotScore": 0,
+            "category1Name": null,
+            "category2Id": null,
+            "category1Id": null,
+            "title": "这是图片6",
+            "attrs": null,
+            "defaultImg": "/images/mobile06.png",
+            "tmName": null,
+            "createTime": null,
+            "category3Name": null,
+            "price": 888.0,
+            "category2Name": null,
+            "category3Id": null,
+            "id": 5
+        }
+    ],
+    "totalPages": 9,
+    "pageSize": 2,
+    "attrsList": [
+        {
+            "attrId": 1170,
+            "attrValueList": [
+                "荣耀"
+            ],
+            "attrName": "运行内存"
+        },
+        {
+            "attrId": 1185,
+            "attrValueList": [
+                "美版",
+                "日版",
+                "欧版",
+                "国行"
+            ],
+            "attrName": "一级手机"
+        },
+        {
+            "attrId": 1,
+            "attrValueList": [
+                "华为",
+                "oppo",
+                "vivo"
+            ],
+            "attrName": "二级手机"
+        }
+    ]
+}

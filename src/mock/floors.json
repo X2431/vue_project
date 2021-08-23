@@ -37,11 +37,11 @@
     "carouselList": [
       {
         "id": "0011",
-        "imageUrl": "/images/floor-1-b01.png"
+        "imgUrl": "/images/floor-1-b01.png"
       },
       {
         "id": "0012",
-        "imageUrl": "/images/floor-1-b02.png"
+        "imgUrl": "/images/floor-1-b02.png"
       }
     ],
     "recommendList": [
@@ -88,15 +88,15 @@
     ],
     "carouselList": [{
         "id": "0011",
-        "imageUrl": "/images/floor-1-b01.png"
+        "imgUrl": "/images/floor-1-b01.png"
       },
       {
         "id": "0012",
-        "imageUrl": "/images/floor-1-b02.png"
+        "imgUrl": "/images/floor-1-b02.png"
       },
       {
         "id": "0013",
-        "imageUrl": "/images/floor-1-b03.png"
+        "imgUrl": "/images/floor-1-b03.png"
       }
     ],
     "recommendList": [

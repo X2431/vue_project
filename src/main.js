@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import TypeNav from './components/TypeNav'
 import store from './store'
 import './api'
+
+import './mock/mockServer'
+import TypeNav from './components/TypeNav'
+import SlideShow from './components/SlideShow'
+import 'swiper/css/swiper.css'
 
 // 第二种测试方式
 // import {reqCategoryList} from './api'
@@ -11,7 +15,9 @@ import './api'
 
 Vue.config.productionTip = false
 
+//公用的可以定义为全局组件
 Vue.component('TypeNav',TypeNav)
+Vue.component('SlideShow',SlideShow)
 
 
 new Vue({

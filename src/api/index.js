@@ -22,6 +22,7 @@
 
 
 import request from './ajax'
+import mockRequest from './mockAjax'
 
 //请求三级分类列表数据
 export const reqCategoryList = () =>{
@@ -34,3 +35,28 @@ export const reqCategoryList = () =>{
 //验证请求是否成功
 //这里如果要调用，就必须把模块引入到main中
 // reqCategoryList() 
+
+
+
+export const reqBannerList =() => {
+    //通过mock接口函数去调用mockajax去请求数据
+    return mockRequest({
+        url:'/banner',
+        method:'get'
+    })
+}
+
+export const reqFloorList = () => {
+    return mockRequest({
+        url:'/floor',
+        method:'get'
+    })
+}
+
+export const reqSearchInfo = (SearchParams) => {
+    return mockRequest({
+        url:'/list',
+        method:'post',
+        data:SearchParams
+    })
+}
